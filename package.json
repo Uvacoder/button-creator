@@ -1,0 +1,48 @@
+{
+  "name": "button-creator",
+  "version": "1.0.0",
+  "author": "richardtaylordawson",
+  "description": "Create a button in real time and generate it's styles to your clipboard.",
+  "homepage": "https://button-creator.richardtaylor.dawson.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardtaylordawson/button-creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richardtaylordawson/button-creator/issues"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@emotion/styled": "^10.0.17",
+    "bootstrap": "^4.3.1",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "develop": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
