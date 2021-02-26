@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styled from "@emotion/styled"
 import { Container, Row, Col, Card, Button, Form } from "react-bootstrap"
 import { Input } from "./components/Input"
+import { InstallButton } from "./components/InstallButton"
 import { copyToClipboard } from "./utils/copy-to-clipboard"
 
 export const App = () => {
@@ -51,7 +52,10 @@ export const App = () => {
         <Col lg={{ span: 8, offset: 2 }} xs={12}>
           <Card className="mt-3 mb-3">
             <Card.Body>
-              <Card.Title>Button Creator</Card.Title>
+              <div className="d-flex justify-content-between">
+                <Card.Title>Button Creator</Card.Title>
+                <InstallButton />
+              </div>
               <div className="mb-3">
                 <label>Preview:</label>
                 <PreviewButton buttonValues={buttonValues}>
