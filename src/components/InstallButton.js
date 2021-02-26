@@ -62,13 +62,13 @@ export const InstallButton = () => {
   }
 
   return (
-    <>
+    <div>
       {installButton}
       <pwa-install
         usecustom
-        iconpath="https://button-creator.richardtaylordawson.com/images/favicon.svg"
+        iconpath="https://button-creator.richardtaylordawson.com/images/favicon.png"
         manifestpath="/manifest.json"
       ></pwa-install>
-    </>
+    </div>
   )
 }
